@@ -43,8 +43,11 @@ Now we have our hypothesis function and we also have a method of measuring how w
 ![alt text](https://miro.medium.com/max/600/0*OHYVpB111n4tr80y?raw=true)
 
 Mathematical form of Gradient Descent for Linear Regression-<br>
-
+<pre>
 repeat until Convergence:{
-                   \Theta(0) := \Theta(0) - (alpha/m)*  $\sum\limits_{i=0}^m (h(xi)-yi)
-(
-\Theta
+                   Theta(0) := Theta(0) - (α/m)* Σ(h(xi) - yi)
+                   Theta(1) := Theta(1) - (α/m)* Σ(h(xi) - yi)
+}
+Note:- Update Theta(0) and Theta(1) Simultaneously.
+Here, α is the size of each step known as the Learning rate. The value of α should be selected with care to ensure that the gradient descent algorithm converges correctly in a reasonable time.
+</pre>
