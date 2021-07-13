@@ -43,7 +43,7 @@ Now we have our hypothesis function and we also have a method of measuring how w
 ![alt text](https://miro.medium.com/max/600/0*OHYVpB111n4tr80y?raw=true)
 
 Mathematical form of Gradient Descent for Linear Regression-<br>
-<pre>
+
 repeat until Convergence:{
                    \Theta(0) := \Theta(0) - (alpha/m)*  $\sum\limits_{i=0}^m (h(xi)-yi)
 (
