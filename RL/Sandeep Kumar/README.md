@@ -18,8 +18,10 @@ Generaling speaking,The aim of the supervised learning algorithm is to use the g
 ![alt text](https://machinelearningmedium.com/assets/2017-08-10-model-representation-and-hypothesis/fig-1-hypothesis.png?raw=true)
 
 ##### <ins>Linear	regression	with	one	variable.</ins>
-For linear regression in one variable,the hypothesis function will be of the form-<br>
-h(x) = ***Θ***0 + ***Θ***1*x      where, ***Θ***0 and ***Θ***1 are the parameters.<br>
+<pre>
+For linear regression in one variable,the hypothesis function will be of the form-
+h(x) = ***Θ***0 + ***Θ***1*x    where, ***Θ***0 and ***Θ***1 are the parameters.
+</pre>
 
 ![alt text](https://miro.medium.com/max/337/1*6egMs9kaw3HFwtQiANtoaQ.png?raw=true)
 
@@ -29,5 +31,4 @@ Now we know it's not possible to tell the hypothesis function by merely looking 
 <ins>***Cost Function***</ins> helps us to figure out which hypothesis best fits our data. Or more formally,It helps us to measure the <ins>error</ins> of our hypothesis.<br>
 Mathematically, Cost function —<br>
 
-
-                   ![alt text](https://miro.medium.com/max/431/1*xXr2YaMcE0KnFAimpT2kHA.png?raw=true)
+![alt text](https://miro.medium.com/max/431/1*xXr2YaMcE0KnFAimpT2kHA.png?raw=true)
