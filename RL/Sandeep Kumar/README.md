@@ -39,5 +39,12 @@ Mathematically, Cost function —<br>
 
 Now we have our hypothesis function and we also have a method of measuring how well it fits into the given data.All we need to do is find the value of parameters(***Θ***0 and ***Θ***1) for which the cost function (i.e. error) is minimum.<br> That’s where gradient descent comes into the picture
 
-<ins>***Gradient descent***</ins> is an optimization algorithm for finding a local minimum of a differentiable function.Gradient descent is simply used to find the values of a function's parameters that minimize a cost function as much as possible.<br>
+<ins>***Gradient descent***</ins> is an optimization algorithm for finding a local minimum of a differentiable function.Gradient descent is simply used to find the values of a function's parameters that minimize a cost function as much as possible.[Here](https://builtin.com/data-science/gradient-descent) you can find more details about Gradient descent.<br>
 ![alt text](https://miro.medium.com/max/600/0*OHYVpB111n4tr80y?raw=true)
+
+Mathematical form of Gradient Descent for Linear Regression-<br>
+<pre>
+repeat until Convergence:{
+                   \Theta(0) := \Theta(0) - (alpha/m)*  $\sum\limits_{i=0}^m (h(xi)-yi)
+(
+\Theta
