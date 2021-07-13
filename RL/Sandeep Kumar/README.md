@@ -28,9 +28,8 @@ h(x) = ***Θ***0 + ***Θ***1*x         <br>where, ***Θ***0 and ***Θ***1 are th
 The line seen in the graph is the Hypothesis function. This line is the best fit that passes through most of the points.<br>
 Now we know it's not possible to tell the hypothesis function by merely looking at the graph! We need some systematic way to figure it out.<br>
 
-<ins>***Cost Function***</ins> helps us to figure out which hypothesis best fits our data. Or more formally,It helps us to measure the <ins>error</ins> of our hypothesis.<br>
+<ins>***Cost Function***</ins> helps us to figure out which hypothesis best fits our data. Or more formally,It helps us to measure the <ins>error</ins> of our hypothesis.It's often called the squared error function.<br><br>
 Mathematically, Cost function —<br>
-
 ![alt text](https://miro.medium.com/max/431/1*xXr2YaMcE0KnFAimpT2kHA.png?raw=true)
 
 <pre>
