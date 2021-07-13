@@ -5,10 +5,10 @@
 
  This project "Learning RL to develop AI agents" is offered by ACA(Association of Computer Activities IITK).
  ## General Concepts :
- ### Introduction to Machine Learning
+ ### <u> Introduction to Machine Learning </u>
  Field of study that gives computers the ability to learn without being explicitly programmed.<br>
  A computer program is said to learn from experience E with respect to some task T and some performance measure P,if its performance on T,as measured by P, improves with experience E.
- ##### Machine learning algorithms:
+ ##### <ins>Machine learning algorithms:</ins>
 - Supervised learning
 - Unsupervised learning
 - ***Reinforcement learning.*** 
