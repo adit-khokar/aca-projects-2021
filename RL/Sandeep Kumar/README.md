@@ -32,3 +32,8 @@ Now we know it's not possible to tell the hypothesis function by merely looking 
 Mathematically, Cost function —<br>
 
 ![alt text](https://miro.medium.com/max/431/1*xXr2YaMcE0KnFAimpT2kHA.png?raw=true)
+
+<pre>
+(h(x) — y)² : Squared vertical distances of the scattered points from the hypothesis.
+∑(h(x) — y)²/2m: Average Squared vertical distances of the scattered points from the hypothesis, i.e Mean Squared error.
+</pre>
