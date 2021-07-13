@@ -19,8 +19,8 @@ Generaling speaking,The aim of the supervised learning algorithm is to use the g
 
 ##### <ins>Linear	regression	with	one	variable.</ins>
 
-For linear regression in one variable,the hypothesis function will be of the form-
-h(x) = ***Θ***0 + ***Θ***1*x         where, ***Θ***0 and ***Θ***1 are the parameters.
+For linear regression in one variable,the hypothesis function will be of the form-<br>
+h(x) = ***Θ***0 + ***Θ***1*x         <br>where, ***Θ***0 and ***Θ***1 are the parameters.
 
 
 ![alt text](https://miro.medium.com/max/337/1*6egMs9kaw3HFwtQiANtoaQ.png?raw=true)
