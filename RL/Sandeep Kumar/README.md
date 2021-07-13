@@ -36,3 +36,8 @@ Mathematically, Cost function —<br>
 (h(x) — y)² : Squared vertical distances of the scattered points from the hypothesis.
 ∑(h(x) — y)²/2m: Average Squared vertical distances of the scattered points from the hypothesis, i.e Mean Squared error.
 </pre>
+
+Now we have our hypothesis function and we also have a method of measuring how well it fits into the given data.All we need to do is find the value of parameters(***Θ***0 and ***Θ***1) for which the cost function (i.e. error) is minimum.<br> That’s where gradient descent comes into the picture
+
+<ins>***Gradient descent***</ins> is an optimization algorithm for finding a local minimum of a differentiable function.Gradient descent is simply used to find the values of a function's parameters that minimize a cost function as much as possible.<br>
+![alt text](https://miro.medium.com/max/600/0*OHYVpB111n4tr80y?raw=true)
