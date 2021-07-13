@@ -48,6 +48,7 @@ repeat until Convergence:{
                    Theta(0) := Theta(0) - (α/m)* Σ(h(xi) - yi)
                    Theta(1) := Theta(1) - (α/m)* Σ(h(xi) - yi)
 }
-Note:- Update Theta(0) and Theta(1) Simultaneously.
+Note:- 1) Update Theta(0) and Theta(1) Simultaneously.
+       2) Σ is done for i=0 to m.  where, m is Number of training examples in training dataset.
 Here, α is the size of each step known as the Learning rate. The value of α should be selected with care to ensure that the gradient descent algorithm converges correctly in a reasonable time.
 </pre>
